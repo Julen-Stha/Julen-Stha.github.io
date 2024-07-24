@@ -28,15 +28,14 @@
 }
 body{
     background-color: black;
-    height:fit-content;
 }
 .whole {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    height: 100%;
-    padding: 10px 10px 5px 10px;
     justify-content: space-between;
+    gap: 10px;
+    height: 100%;
+    padding: 10px 10px 5px 15px;
 }
 
 .home {
@@ -50,6 +49,7 @@ body{
     flex-direction: column;
     position: sticky;
     gap: 10px;
+    
 }
 
 .home .left .top,
@@ -242,7 +242,7 @@ body{
 .right {
     display: flex;
     flex-direction: column;
-    width: 1140px;
+    width: 1120px;
     height: 620px;
 
     .nav {
@@ -749,8 +749,8 @@ body{
     }
 }
 .advertisement{
-    width:97%;
-    height:50px;
+    max-width:1440px;
+    height:45px;
     background:linear-gradient(to right,rgb(165, 53, 161),rgb(93, 139, 231));
     padding:5px 20px 5px 20px;
     font-size: 13px;
@@ -761,14 +761,19 @@ body{
     p{
         font-weight: 700;
     }
+    .text-advertisement{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     .button-for-ad{
         button{
             background-color: white;
             border:none;
-            height:50px;
+            height:45px;
             font-size: 16px;
             font-weight: 500;
-            width: 150px;
+            width: 140px;
             border-radius: 30px;
         }
         button:hover{
